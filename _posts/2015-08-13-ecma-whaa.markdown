@@ -1,0 +1,66 @@
+---
+title:  "ECMA Whaaa"
+description: "Introduction to ECMAScript 6"
+## date: add a date when publishing
+---
+
+# ECMAScript 6
+
+So you've probably been hearing about ECMAScript 6 its the latest version of the ECMAScript Standard. ECMAScript 6 brings alot of features that other languages like c# and java 8 already have.
+
+##Arrows
+Arrows are a function shorthand using the => syntax. This is one of the features like other languages have but js did not have until now. Here is an example.
+
+```javascript
+// ES6
+var doSomething = () => {
+  //...
+}
+```
+
+##Classes!
+JavaScript finally has classes. In ES5 could some how crreate a javascript class but it was really just a calling function and making a object by calling new. But ES6 has actual classes here is an example.
+
+```javascript
+class Apple{
+  constructor(color, amount) {
+    this.color = color;
+    this.amount = amount
+  }
+  
+  get color() {
+    return this.color;
+  }
+}
+```
+
+##Templating Strings
+Template strings provide syntactic sugar for constructing strings. This is similar to string interpolation features in Perl, Python and more. Here is an example
+
+```javascript
+var name = "Bob", time = "today";
+`Hello ${name}, how are you ${time}?`
+```
+
+##for..of and for..in
+ES6 has two new feature for..of and for..in 
+
+Whats the difference?
+
+for..in iterates through the property names. for..of iterates through the values
+
+```javascript
+var arr = [3,5,7];
+for(var i in arr){
+  console.log(i);
+}
+```
+
+#Babel
+ECMAScript 6 is not natively supported by every browser right now. But that does not mean you can't start playing with ES6.  There are many transpiler that allow to transpile ES6 to ES5. Babel is a very popul ES6 transpiler Here is the link to the GitHub page [Babel Github Repo](https://github.com/babel/babel) and here is the link to the website [Babel website](https://babeljs.io)
+
+##Conclusion 
+
+This is just a taste of what ES6 has to offer. ES6 has many more feature like generators , modules, proxies and much more.
+Checkout this list of ES6 feature on github [ES6 Features](https://github.com/lukehoban/es6features)
+
