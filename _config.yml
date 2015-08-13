@@ -3,6 +3,7 @@ description: Blog About Web Dev Tutorials , And Stuff 0-::-0
 meta_description: "Blog About Web Development"
 
 aboutPage: true
+github:'http://abdi0987.github.io/blog/'
 
 markdown: redcarpet
 highlighter: pygments
