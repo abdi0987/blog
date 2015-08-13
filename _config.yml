@@ -4,6 +4,8 @@ meta_description: "A blog about web development and stuff"
 
 aboutPage: false
 
+baseurl: '/blog'
+
 markdown: redcarpet
 highlighter: pygments
 
