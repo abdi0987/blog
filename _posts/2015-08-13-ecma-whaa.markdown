@@ -57,7 +57,7 @@ for(var i in arr){
 ```
 
 #Babel
-ECMAScript 6 is not natively supported by every browser right now. But that does not mean you can't start playing with ES6.  There are many transpiler that allow to transpile ES6 to ES5. Babel is a very popul ES6 transpiler Here is the link to the GitHub page [Babel Github Repo](https://github.com/babel/babel) and here is the link to the website [Babel website](https://babeljs.io)
+ECMAScript 6 is not natively supported by every browser right now. But that does not mean you can't start playing with ES6.  There are many transpiler that allow to transpile ES6 to ES5. Babel is a very popular ES6 transpiler Here is the link to the GitHub page [Babel Github Repo](https://github.com/babel/babel) and here is the link to the website [Babel website](https://babeljs.io)
 
 ##Conclusion 
 
