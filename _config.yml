@@ -21,7 +21,6 @@ authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
 
-
 defaults:
     -
         scope:
