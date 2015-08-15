@@ -21,11 +21,17 @@ View is what's presented to the users and how users interact with the app. The v
 The controller is the glue between the model and view. The contoller is where our business logic well be placed. It removes data , adds data , render ui, etc.
 
 # Example 
+
 ![App](../../assets/images/screen2.png "Sample App")
 
 We will be building a simple app that adds and removes li elements. Checkout the github page and follow along with me.
 
 ![App](../../assets/images/screen1.png "Sample App")
+
+
+Download the starter from the following link
+
+# [Git Repo](https://github.com/abdi0987/MVC_Example)
 
 ## Model 
 
