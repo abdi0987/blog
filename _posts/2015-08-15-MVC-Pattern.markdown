@@ -34,6 +34,8 @@ We will be building a simple app that adds and removes li elements. Checkout the
 
 ## Model 
 
+Don't worry about the index.html file open the app.js file thats what we will focus on.
+
 ```javascript
     var model = {
         pizzas: [],
@@ -48,7 +50,7 @@ This is a little more complex
 
 ```javascript
     var view = {
-        render: function(pizzas) {
+        render: function(pizzas) { // Render function runs everytime there is a change
             document.getElementById('collection').innerHTML = '';
             for (var i = 0; i < pizzas.length; i++) {
                 //Create the li element
@@ -86,7 +88,7 @@ This is a little more complex
             }
         },
         
-        setEvents : function(){
+        setEvents : function(){ // add event listener to remove and add pizza buttons
             $(document).delegate('.remove-pizza','click',function(){
                 //$(this).parent.style.color = '#e74c3c'
                 $(this).parent().css( "color","#e74c3c" )
@@ -101,9 +103,6 @@ This is a little more complex
     
     }
 ```
-If the i element seems alien to you don't worry i'm using a css framework that handels the look of the website , we need to worry about the logic.
-
-
 In the render function we are looping through pizzas and creating a li element for each one 
 
 for the setEvents we are adding event listeners for every button and executing the correct task
