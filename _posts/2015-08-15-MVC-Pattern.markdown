@@ -18,7 +18,7 @@ View is what's presented to the users and how users interact with the app. The v
 
 ## Controller
 
-Is the glue between the model and view. The contoller is where our business logic well be placed. It removes data , adds data , etc.
+The controller is the glue between the model and view. The contoller is where our business logic well be placed. It removes data , adds data , render ui, etc.
 
 # Example 
 ![App](../../assets/images/screen2.png "Sample App")
@@ -96,7 +96,9 @@ This is a little more complex
     
     }
 ```
-If the <i> element seems alien to you don't worry i'm using a css framework that handels the look of the website we need to worry about the logic
+If the i element seems alien to you don't worry i'm using a css framework that handels the look of the website , we need to worry about the logic.
+
+
 In the render function we are looping through pizzas and creating a li element for each one 
 
 for the setEvents we are adding event listeners for every button and executing the correct task
