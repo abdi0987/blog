@@ -29,9 +29,10 @@ We will be building a simple app that adds and removes li elements. Checkout the
 ![App](../../assets/images/screen1.png "Sample App")
 
 
-Download the starter from the following link
+# Download the starter from the following link
 
-# [Git Repo](https://github.com/abdi0987/MVC_Example)
+## [Git Repo](https://github.com/abdi0987/MVC_Example)
+
 
 ## Model 
 
