@@ -2,6 +2,8 @@ name: AM Blog
 description: Blogging about stuffs
 meta_description: "A blog about web development and stuff"
 
+exclude: [vendor]
+
 aboutPage: false
 
 baseurl: '/blog'
